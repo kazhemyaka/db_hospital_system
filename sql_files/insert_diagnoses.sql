@@ -1,0 +1,14 @@
+INSERT INTO Diagnosis (Doctor_ID, Patient_ID, Diagnosis_Name, Diagnosis_Notes, Diagnosis_File)
+VALUES (1, 1, 'Flu', 'Flu is a common infectious viral illness spread by coughs and sneezes. It can be very unpleasant, but you\'ll usually begin to feel better within about a week.', '../diagnoses/diagnosis1.pdf');
+INSERT INTO Diagnosis (Doctor_ID, Patient_ID, Diagnosis_Name, Diagnosis_Notes, Diagnosis_File)
+VALUES (1, 2, 'Broken leg', 'A broken leg (leg fracture) will be severely painful and may be swollen or bruised. You usually will not be able to walk on it.', '../diagnoses/diagnosis2.pdf');
+INSERT INTO Diagnosis (Doctor_ID, Patient_ID, Diagnosis_Name, Diagnosis_Notes, Diagnosis_File)
+VALUES (2, 3, 'Tooth decay', 'Tooth decay, also known as cavities or caries, is the breakdown of teeth due to acids produced by bacteria. The cavities may be a number of different colors from yellow to black. Symptoms may include pain and difficulty with eating. Complications may include inflammation of the tissue around the tooth, tooth loss and infection or abscess formation.', '../diagnoses/diagnosis3.pdf');
+INSERT INTO Diagnosis (Doctor_ID, Patient_ID, Diagnosis_Name, Diagnosis_Notes, Diagnosis_File)
+VALUES (3, 3, 'Psoriasis', 'Psoriasis is a long-lasting, noncontagious autoimmune disease characterized by raised areas of abnormal skin. These areas are red, pink, or purple, dry, itchy, and scaly. Psoriasis varies in severity from small, localized patches to complete body coverage.[3] Injury to the skin can trigger psoriatic skin changes at that spot, which is known as the Koebner phenomenon.', '../diagnoses/diagnosis4.pdf');
+INSERT INTO Diagnosis (Doctor_ID, Patient_ID, Diagnosis_Name, Diagnosis_Notes, Diagnosis_File)
+VALUES (4, 4, 'Tachycardia', 'Tachycardia, also called tachyarrhythmia, is a heart rate that exceeds the normal resting rate. In general, a resting heart rate over 100 beats per minute is accepted as tachycardia in adults. Heart rates above the resting rate may be normal (such as with exercise) or abnormal (such as with electrical problems within the heart).', '../diagnoses/diagnosis5.pdf');
+INSERT INTO Diagnosis (Doctor_ID, Patient_ID, Diagnosis_Name, Diagnosis_Notes, Diagnosis_File)
+VALUES (5, 5, 'Insomnia', 'Insomnia, also known as sleeplessness, is a sleep disorder where people have trouble sleeping. They may have difficulty falling asleep, or staying asleep as long as desired. Insomnia is typically followed by daytime sleepiness, low energy, irritability, and a depressed mood. It may result in an increased risk of motor vehicle collisions, as well as problems focusing and learning. Insomnia can be short term, lasting for days or weeks, or long term, lasting more than a month.', '../diagnoses/diagnosis6.pdf');
+
+SELECT * FROM Diagnosis;
